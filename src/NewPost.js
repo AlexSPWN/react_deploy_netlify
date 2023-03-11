@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { format } from 'date-fns';
 /* import api from './api/posts'; */
 /* import DataContext from './context/DataContext'; */
-import { useStoreState, useStoreActions, action } from 'easy-peasy';
+import { useStoreState, useStoreActions } from 'easy-peasy';
 
 const NewPost = () => {
 
